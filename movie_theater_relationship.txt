@@ -1,0 +1,5 @@
+1. Concession_id relationship is a one-to-many as a customer is allowed to purchase one or multiple type of concession items
+2. Employee_id relationship between employee and ticket table is a one-to-many as an employee can sell multiple tickets
+3. The relationship between movie and customer is a one-to-many as one movie can have multiple customer watching
+4. The relationship between movie and ticket is a one-to-one as one movie will have one type of ticket id, this does not determine the amount of tickets is for one type of movie
+5. The relationship between ticket and customer is a one-to-one as a customer will have one ticket id 
